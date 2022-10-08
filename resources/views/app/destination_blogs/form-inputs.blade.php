@@ -76,14 +76,11 @@
     </x-inputs.group>
 
     <x-inputs.group class="col-sm-12">
-        <x-inputs.text
+        <x-inputs.checkbox
             name="status"
             label="Status"
-            :value="old('status', ($editing ? $destinationBlog->status : ''))"
-            maxlength="255"
-            placeholder="Status"
-            required
-        ></x-inputs.text>
+            :checked="old('status', ($editing ? $destinationBlog->status : 0))"
+        ></x-inputs.checkbox>
     </x-inputs.group>
 
     <x-inputs.group class="col-sm-12">

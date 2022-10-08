@@ -7,7 +7,7 @@
 <div class="card flex-row-fluid mb-2 mt-4">
 	<div class="card-body fs-6 py-15 px-10 py-lg-15 px-lg-15 text-gray-700">
             <h4 class="card-title">
-                <a href="{{ route('all-city-events.index') }}" class="mr-4"
+                <a href="{{ route('city-events.index') }}" class="mr-4"
                     ><i class="icon ion-md-arrow-back"></i
                 ></a>
                 @lang('crud.all_city_events.edit_title')
@@ -15,7 +15,7 @@
 
             <x-form
                 method="PUT"
-                action="{{ route('all-city-events.update', $cityEvents) }}"
+                action="{{ route('city-events.update', $cityEvent) }}"
                 has-files
                 class="mt-4"
             >
@@ -23,7 +23,7 @@
 
                 <div class="mt-4">
                     <a
-                        href="{{ route('all-city-events.index') }}"
+                        href="{{ route('city-events.index') }}"
                         class="btn btn-light"
                     >
                         <i class="icon ion-md-return-left text-primary"></i>
@@ -31,7 +31,7 @@
                     </a>
 
                     <a
-                        href="{{ route('all-city-events.create') }}"
+                        href="{{ route('city-events.create') }}"
                         class="btn btn-light"
                     >
                         <i class="icon ion-md-add text-primary"></i>

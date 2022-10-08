@@ -20,9 +20,9 @@ class City extends Model
         return $this->belongsTo(Country::class);
     }
 
-    public function allCityEvents()
+    public function cityEvents()
     {
-        return $this->hasMany(CityEvents::class);
+        return $this->hasMany(CityEvent::class);
     }
 
     public function busRouteFrom()

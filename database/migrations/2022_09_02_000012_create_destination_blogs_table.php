@@ -18,7 +18,7 @@ return new class extends Migration {
             $table->string('title');
             $table->text('description');
             $table->string('tags');
-            $table->tinyInteger('status');
+            $table->tinyInteger('status')->default(0);
             $table->unsignedBigInteger('city_id');
 
             $table->timestamps();

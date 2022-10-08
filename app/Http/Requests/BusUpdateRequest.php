@@ -25,7 +25,7 @@ class BusUpdateRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:255', 'string'],
-            'model' => ['required', 'max:255', 'string'],
+            'number' => ['required', 'string'],
         ];
     }
 }

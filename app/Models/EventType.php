@@ -17,7 +17,7 @@ class EventType extends Model
 
     protected $table = 'event_types';
 
-    public function allCityEvents()
+    public function cityEvents()
     {
         return $this->hasMany(CityEvents::class);
     }

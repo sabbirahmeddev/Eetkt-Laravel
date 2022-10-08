@@ -15,8 +15,7 @@ return new class extends Migration {
         Schema::create('buses', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->lineString('model');
-
+            $table->string('number');
             $table->timestamps();
         });
     }

@@ -21,13 +21,13 @@ class EventTypeAllCityEventsController extends Controller
 
         $search = $request->get('search', '');
 
-        $allCityEvents = $eventType
-            ->allCityEvents()
+        $cityEvent = $eventType
+            ->cityEvents()
             ->search($search)
             ->latest()
             ->paginate();
 
-        return new CityEventsCollection($allCityEvents);
+        return new CityEventsCollection($cityEvent);
     }
 
     /**
@@ -50,8 +50,8 @@ class EventTypeAllCityEventsController extends Controller
             $validated['image'] = $request->file('image')->store('public');
         }
 
-        $cityEvents = $eventType->allCityEvents()->create($validated);
+        $cityEvent = $eventType->cityEvents()->create($validated);
 
-        return new CityEventsResource($cityEvents);
+        return new CityEventsResource($cityEvent);
     }
 }

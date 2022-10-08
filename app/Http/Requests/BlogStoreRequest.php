@@ -29,6 +29,7 @@ class BlogStoreRequest extends FormRequest
             'description' => ['required', 'max:255', 'string'],
             'tags' => ['required', 'max:255', 'string'],
             'blog_category_id' => ['required', 'exists:blog_categories,id'],
+            'status' => ['required', 'max:255'],
         ];
     }
 }

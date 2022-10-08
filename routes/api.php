@@ -2,58 +2,53 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\FaqController;
-use App\Http\Controllers\Api\BusController;
-use App\Http\Controllers\Api\CarController;
-use App\Http\Controllers\Api\JobController;
-use App\Http\Controllers\Api\PageController;
-use App\Http\Controllers\Api\UserController;
-use App\Http\Controllers\Api\BlogController;
-use App\Http\Controllers\Api\CityController;
-use App\Http\Controllers\Api\VisaController;
-use App\Http\Controllers\Api\AuthController;
-use App\Http\Controllers\Api\RoleController;
-use App\Http\Controllers\Api\HotelController;
-use App\Http\Controllers\Api\CountryController;
-use App\Http\Controllers\Api\HolidayController;
-use App\Http\Controllers\Api\SettingController;
-use App\Http\Controllers\Api\BusRouteController;
-use App\Http\Controllers\Api\CarBrandController;
-use App\Http\Controllers\Api\CarDriverController;
-use App\Http\Controllers\Api\EventTypeController;
-use App\Http\Controllers\Api\HotelTypeController;
-use App\Http\Controllers\Api\InsuranceController;
-use App\Http\Controllers\Api\SocialLinkController;
-use App\Http\Controllers\Api\CityEventsController;
-use App\Http\Controllers\Api\PermissionController;
-use App\Http\Controllers\Api\JobCategoryController;
-use App\Http\Controllers\Api\BlogCategoryController;
-use App\Http\Controllers\Api\BusBusRoutesController;
-use App\Http\Controllers\Api\CarBrandCarsController;
-use App\Http\Controllers\Api\CityHolidaysController;
-use App\Http\Controllers\Api\CityCategoryController;
-use App\Http\Controllers\Api\CountryVisasController;
-use App\Http\Controllers\Api\HotelServiceController;
-use App\Http\Controllers\Api\SettingGroupController;
-use App\Http\Controllers\Api\CarDriverCarsController;
-use App\Http\Controllers\Api\CityBusRoutesController;
-use App\Http\Controllers\Api\CountryCitiesController;
-use App\Http\Controllers\Api\HotelFacilityController;
-use App\Http\Controllers\Api\JobSubCategoryController;
-use App\Http\Controllers\Api\DestinationBlogController;
-use App\Http\Controllers\Api\HotelTypeHotelsController;
-use App\Http\Controllers\Api\InsuranceAgencyController;
-use App\Http\Controllers\Api\JobCategoryJobsController;
-use App\Http\Controllers\Api\BlogCategoryBlogsController;
-use App\Http\Controllers\Api\CityAllCityEventsController;
-use App\Http\Controllers\Api\CityCityCategoriesController;
-use App\Http\Controllers\Api\HotelHotelServicesController;
-use App\Http\Controllers\Api\JobSubCategoryJobsController;
-use App\Http\Controllers\Api\CityDestinationBlogsController;
-use App\Http\Controllers\Api\HotelHotelFacilitiesController;
-use App\Http\Controllers\Api\SettingGroupSettingsController;
-use App\Http\Controllers\Api\EventTypeAllCityEventsController;
-use App\Http\Controllers\Api\InsuranceAgencyInsurancesController;
+// use App\Http\Controllers\Api\BusController;
+// use App\Http\Controllers\Api\CarController;
+// use App\Http\Controllers\Api\JobController;
+// use App\Http\Controllers\Api\UserController;
+// use App\Http\Controllers\Api\BlogController;
+// use App\Http\Controllers\Api\CityController;
+// use App\Http\Controllers\Api\VisaController;
+// use App\Http\Controllers\Api\AuthController;
+// use App\Http\Controllers\Api\HotelController;
+// use App\Http\Controllers\Api\CountryController;
+// use App\Http\Controllers\Api\HolidayController;
+// use App\Http\Controllers\Api\SettingController;
+// use App\Http\Controllers\Api\BusRouteController;
+// use App\Http\Controllers\Api\CarBrandController;
+// use App\Http\Controllers\Api\CarDriverController;
+// use App\Http\Controllers\Api\EventTypeController;
+// use App\Http\Controllers\Api\HotelTypeController;
+// use App\Http\Controllers\Api\InsuranceController;
+// use App\Http\Controllers\Api\SocialLinkController;
+// use App\Http\Controllers\Api\CityEventsController;
+// use App\Http\Controllers\Api\JobCategoryController;
+// use App\Http\Controllers\Api\BusBusRoutesController;
+// use App\Http\Controllers\Api\CarBrandCarsController;
+// use App\Http\Controllers\Api\CityHolidaysController;
+// use App\Http\Controllers\Api\CityCategoryController;
+// use App\Http\Controllers\Api\CountryVisasController;
+// use App\Http\Controllers\Api\HotelServiceController;
+// use App\Http\Controllers\Api\SettingGroupController;
+// use App\Http\Controllers\Api\CarDriverCarsController;
+// use App\Http\Controllers\Api\CityBusRoutesController;
+// use App\Http\Controllers\Api\CountryCitiesController;
+// use App\Http\Controllers\Api\HotelFacilityController;
+// use App\Http\Controllers\Api\JobSubCategoryController;
+// use App\Http\Controllers\Api\DestinationBlogController;
+// use App\Http\Controllers\Api\HotelTypeHotelsController;
+// use App\Http\Controllers\Api\InsuranceAgencyController;
+// use App\Http\Controllers\Api\JobCategoryJobsController;
+// use App\Http\Controllers\Api\BlogCategoryBlogsController;
+// use App\Http\Controllers\Api\CityAllCityEventsController;
+// use App\Http\Controllers\Api\CityCityCategoriesController;
+// use App\Http\Controllers\Api\HotelHotelServicesController;
+// use App\Http\Controllers\Api\JobSubCategoryJobsController;
+// use App\Http\Controllers\Api\CityDestinationBlogsController;
+// use App\Http\Controllers\Api\HotelHotelFacilitiesController;
+// use App\Http\Controllers\Api\SettingGroupSettingsController;
+// use App\Http\Controllers\Api\EventTypeAllCityEventsController;
+// use App\Http\Controllers\Api\InsuranceAgencyInsurancesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -66,286 +61,286 @@ use App\Http\Controllers\Api\InsuranceAgencyInsurancesController;
 |
 */
 
-Route::post('/login', [AuthController::class, 'login'])->name('api.login');
+// Route::post('/login', [AuthController::class, 'login'])->name('api.login');
 
-Route::middleware('auth:sanctum')
-    ->get('/user', function (Request $request) {
-        return $request->user();
-    })
-    ->name('api.user');
+// Route::middleware('auth:sanctum')
+//     ->get('/user', function (Request $request) {
+//         return $request->user();
+//     })
+//     ->name('api.user');
 
-Route::name('api.')
-    ->middleware('auth:sanctum')
-    ->group(function () {
-        Route::apiResource('roles', RoleController::class);
-        Route::apiResource('permissions', PermissionController::class);
+// Route::name('api.')
+//     ->middleware('auth:sanctum')
+//     ->group(function () {
 
-        Route::apiResource('blog-categories', BlogCategoryController::class);
 
-        // BlogCategory Blogs
-        Route::get('/blog-categories/{blogCategory}/blogs', [
-            BlogCategoryBlogsController::class,
-            'index',
-        ])->name('blog-categories.blogs.index');
-        Route::post('/blog-categories/{blogCategory}/blogs', [
-            BlogCategoryBlogsController::class,
-            'store',
-        ])->name('blog-categories.blogs.store');
 
-        Route::apiResource('pages', PageController::class);
+//         Route::apiResource('blog-categories', BlogCategoryController::class);
 
-        Route::apiResource('faqs', FaqController::class);
+//         // BlogCategory Blogs
+//         Route::get('/blog-categories/{blogCategory}/blogs', [
+//             BlogCategoryBlogsController::class,
+//             'index',
+//         ])->name('blog-categories.blogs.index');
+//         Route::post('/blog-categories/{blogCategory}/blogs', [
+//             BlogCategoryBlogsController::class,
+//             'store',
+//         ])->name('blog-categories.blogs.store');
 
-        Route::apiResource('social-links', SocialLinkController::class);
+//         Route::apiResource('pages', PageController::class);
 
-        Route::apiResource('users', UserController::class);
+//         Route::apiResource('faqs', FaqController::class);
 
-        Route::apiResource('blogs', BlogController::class);
+//         Route::apiResource('social-links', SocialLinkController::class);
 
-        Route::apiResource('buses', BusController::class);
+//         Route::apiResource('users', UserController::class);
 
-        // Bus Bus Routes
-        Route::get('/buses/{bus}/bus-routes', [
-            BusBusRoutesController::class,
-            'index',
-        ])->name('buses.bus-routes.index');
-        Route::post('/buses/{bus}/bus-routes', [
-            BusBusRoutesController::class,
-            'store',
-        ])->name('buses.bus-routes.store');
+//         Route::apiResource('blogs', BlogController::class);
 
-        Route::apiResource('bus-routes', BusRouteController::class);
+//         Route::apiResource('buses', BusController::class);
 
-        Route::apiResource('cars', CarController::class);
+//         // Bus Bus Routes
+//         Route::get('/buses/{bus}/bus-routes', [
+//             BusBusRoutesController::class,
+//             'index',
+//         ])->name('buses.bus-routes.index');
+//         Route::post('/buses/{bus}/bus-routes', [
+//             BusBusRoutesController::class,
+//             'store',
+//         ])->name('buses.bus-routes.store');
 
-        Route::apiResource('car-brands', CarBrandController::class);
+//         Route::apiResource('bus-routes', BusRouteController::class);
 
-        // CarBrand Cars
-        Route::get('/car-brands/{carBrand}/cars', [
-            CarBrandCarsController::class,
-            'index',
-        ])->name('car-brands.cars.index');
-        Route::post('/car-brands/{carBrand}/cars', [
-            CarBrandCarsController::class,
-            'store',
-        ])->name('car-brands.cars.store');
+//         Route::apiResource('cars', CarController::class);
 
-        Route::apiResource('car-drivers', CarDriverController::class);
+//         Route::apiResource('car-brands', CarBrandController::class);
 
-        // CarDriver Cars
-        Route::get('/car-drivers/{carDriver}/cars', [
-            CarDriverCarsController::class,
-            'index',
-        ])->name('car-drivers.cars.index');
-        Route::post('/car-drivers/{carDriver}/cars', [
-            CarDriverCarsController::class,
-            'store',
-        ])->name('car-drivers.cars.store');
+//         // CarBrand Cars
+//         Route::get('/car-brands/{carBrand}/cars', [
+//             CarBrandCarsController::class,
+//             'index',
+//         ])->name('car-brands.cars.index');
+//         Route::post('/car-brands/{carBrand}/cars', [
+//             CarBrandCarsController::class,
+//             'store',
+//         ])->name('car-brands.cars.store');
 
-        Route::apiResource('cities', CityController::class);
+//         Route::apiResource('car-drivers', CarDriverController::class);
 
-        // City All City Events
-        Route::get('/cities/{city}/all-city-events', [
-            CityAllCityEventsController::class,
-            'index',
-        ])->name('cities.all-city-events.index');
-        Route::post('/cities/{city}/all-city-events', [
-            CityAllCityEventsController::class,
-            'store',
-        ])->name('cities.all-city-events.store');
+//         // CarDriver Cars
+//         Route::get('/car-drivers/{carDriver}/cars', [
+//             CarDriverCarsController::class,
+//             'index',
+//         ])->name('car-drivers.cars.index');
+//         Route::post('/car-drivers/{carDriver}/cars', [
+//             CarDriverCarsController::class,
+//             'store',
+//         ])->name('car-drivers.cars.store');
 
-        // City Bus Route From
-        Route::get('/cities/{city}/bus-routes', [
-            CityBusRoutesController::class,
-            'index',
-        ])->name('cities.bus-routes.index');
-        Route::post('/cities/{city}/bus-routes', [
-            CityBusRoutesController::class,
-            'store',
-        ])->name('cities.bus-routes.store');
+//         Route::apiResource('cities', CityController::class);
 
-        // City Bus Route To
-        Route::get('/cities/{city}/bus-routes', [
-            CityBusRoutesController::class,
-            'index',
-        ])->name('cities.bus-routes.index');
-        Route::post('/cities/{city}/bus-routes', [
-            CityBusRoutesController::class,
-            'store',
-        ])->name('cities.bus-routes.store');
+//         // City All City Events
+//         Route::get('/cities/{city}/city-events', [
+//             CityAllCityEventsController::class,
+//             'index',
+//         ])->name('cities.city-events.index');
+//         Route::post('/cities/{city}/city-events', [
+//             CityAllCityEventsController::class,
+//             'store',
+//         ])->name('cities.city-events.store');
 
-        // City City Category
-        Route::get('/cities/{city}/city-categories', [
-            CityCityCategoriesController::class,
-            'index',
-        ])->name('cities.city-categories.index');
-        Route::post('/cities/{city}/city-categories', [
-            CityCityCategoriesController::class,
-            'store',
-        ])->name('cities.city-categories.store');
+//         // City Bus Route From
+//         Route::get('/cities/{city}/bus-routes', [
+//             CityBusRoutesController::class,
+//             'index',
+//         ])->name('cities.bus-routes.index');
+//         Route::post('/cities/{city}/bus-routes', [
+//             CityBusRoutesController::class,
+//             'store',
+//         ])->name('cities.bus-routes.store');
 
-        // City Destination Blogs
-        Route::get('/cities/{city}/destination-blogs', [
-            CityDestinationBlogsController::class,
-            'index',
-        ])->name('cities.destination-blogs.index');
-        Route::post('/cities/{city}/destination-blogs', [
-            CityDestinationBlogsController::class,
-            'store',
-        ])->name('cities.destination-blogs.store');
+//         // City Bus Route To
+//         Route::get('/cities/{city}/bus-routes', [
+//             CityBusRoutesController::class,
+//             'index',
+//         ])->name('cities.bus-routes.index');
+//         Route::post('/cities/{city}/bus-routes', [
+//             CityBusRoutesController::class,
+//             'store',
+//         ])->name('cities.bus-routes.store');
 
-        // City Holidays
-        Route::get('/cities/{city}/holidays', [
-            CityHolidaysController::class,
-            'index',
-        ])->name('cities.holidays.index');
-        Route::post('/cities/{city}/holidays', [
-            CityHolidaysController::class,
-            'store',
-        ])->name('cities.holidays.store');
+//         // City City Category
+//         Route::get('/cities/{city}/city-categories', [
+//             CityCityCategoriesController::class,
+//             'index',
+//         ])->name('cities.city-categories.index');
+//         Route::post('/cities/{city}/city-categories', [
+//             CityCityCategoriesController::class,
+//             'store',
+//         ])->name('cities.city-categories.store');
 
-        Route::apiResource('city-categories', CityCategoryController::class);
+//         // City Destination Blogs
+//         Route::get('/cities/{city}/destination-blogs', [
+//             CityDestinationBlogsController::class,
+//             'index',
+//         ])->name('cities.destination-blogs.index');
+//         Route::post('/cities/{city}/destination-blogs', [
+//             CityDestinationBlogsController::class,
+//             'store',
+//         ])->name('cities.destination-blogs.store');
 
-        Route::apiResource('all-city-events', CityEventsController::class);
+//         // City Holidays
+//         Route::get('/cities/{city}/holidays', [
+//             CityHolidaysController::class,
+//             'index',
+//         ])->name('cities.holidays.index');
+//         Route::post('/cities/{city}/holidays', [
+//             CityHolidaysController::class,
+//             'store',
+//         ])->name('cities.holidays.store');
 
-        Route::apiResource('countries', CountryController::class);
+//         Route::apiResource('city-categories', CityCategoryController::class);
 
-        // Country Cities
-        Route::get('/countries/{country}/cities', [
-            CountryCitiesController::class,
-            'index',
-        ])->name('countries.cities.index');
-        Route::post('/countries/{country}/cities', [
-            CountryCitiesController::class,
-            'store',
-        ])->name('countries.cities.store');
+//         Route::apiResource('city-events', CityEventsController::class);
 
-        // Country Visas
-        Route::get('/countries/{country}/visas', [
-            CountryVisasController::class,
-            'index',
-        ])->name('countries.visas.index');
-        Route::post('/countries/{country}/visas', [
-            CountryVisasController::class,
-            'store',
-        ])->name('countries.visas.store');
+//         Route::apiResource('countries', CountryController::class);
 
-        Route::apiResource(
-            'destination-blogs',
-            DestinationBlogController::class
-        );
+//         // Country Cities
+//         Route::get('/countries/{country}/cities', [
+//             CountryCitiesController::class,
+//             'index',
+//         ])->name('countries.cities.index');
+//         Route::post('/countries/{country}/cities', [
+//             CountryCitiesController::class,
+//             'store',
+//         ])->name('countries.cities.store');
 
-        Route::apiResource('event-types', EventTypeController::class);
+//         // Country Visas
+//         Route::get('/countries/{country}/visas', [
+//             CountryVisasController::class,
+//             'index',
+//         ])->name('countries.visas.index');
+//         Route::post('/countries/{country}/visas', [
+//             CountryVisasController::class,
+//             'store',
+//         ])->name('countries.visas.store');
 
-        // EventType All City Events
-        Route::get('/event-types/{eventType}/all-city-events', [
-            EventTypeAllCityEventsController::class,
-            'index',
-        ])->name('event-types.all-city-events.index');
-        Route::post('/event-types/{eventType}/all-city-events', [
-            EventTypeAllCityEventsController::class,
-            'store',
-        ])->name('event-types.all-city-events.store');
+//         Route::apiResource(
+//             'destination-blogs',
+//             DestinationBlogController::class
+//         );
 
-        Route::apiResource('holidays', HolidayController::class);
+//         Route::apiResource('event-types', EventTypeController::class);
 
-        Route::apiResource('hotels', HotelController::class);
+//         // EventType All City Events
+//         Route::get('/event-types/{eventType}/city-events', [
+//             EventTypeAllCityEventsController::class,
+//             'index',
+//         ])->name('event-types.city-events.index');
+//         Route::post('/event-types/{eventType}/city-events', [
+//             EventTypeAllCityEventsController::class,
+//             'store',
+//         ])->name('event-types.city-events.store');
 
-        // Hotel Hotel Facilities
-        Route::get('/hotels/{hotel}/hotel-facilities', [
-            HotelHotelFacilitiesController::class,
-            'index',
-        ])->name('hotels.hotel-facilities.index');
-        Route::post('/hotels/{hotel}/hotel-facilities', [
-            HotelHotelFacilitiesController::class,
-            'store',
-        ])->name('hotels.hotel-facilities.store');
+//         Route::apiResource('holidays', HolidayController::class);
 
-        // Hotel Hotel Services
-        Route::get('/hotels/{hotel}/hotel-services', [
-            HotelHotelServicesController::class,
-            'index',
-        ])->name('hotels.hotel-services.index');
-        Route::post('/hotels/{hotel}/hotel-services', [
-            HotelHotelServicesController::class,
-            'store',
-        ])->name('hotels.hotel-services.store');
+//         Route::apiResource('hotels', HotelController::class);
 
-        Route::apiResource('hotel-facilities', HotelFacilityController::class);
+//         // Hotel Hotel Facilities
+//         Route::get('/hotels/{hotel}/hotel-facilities', [
+//             HotelHotelFacilitiesController::class,
+//             'index',
+//         ])->name('hotels.hotel-facilities.index');
+//         Route::post('/hotels/{hotel}/hotel-facilities', [
+//             HotelHotelFacilitiesController::class,
+//             'store',
+//         ])->name('hotels.hotel-facilities.store');
 
-        Route::apiResource('hotel-services', HotelServiceController::class);
+//         // Hotel Hotel Services
+//         Route::get('/hotels/{hotel}/hotel-services', [
+//             HotelHotelServicesController::class,
+//             'index',
+//         ])->name('hotels.hotel-services.index');
+//         Route::post('/hotels/{hotel}/hotel-services', [
+//             HotelHotelServicesController::class,
+//             'store',
+//         ])->name('hotels.hotel-services.store');
 
-        Route::apiResource('hotel-types', HotelTypeController::class);
+//         Route::apiResource('hotel-facilities', HotelFacilityController::class);
 
-        // HotelType Hotels
-        Route::get('/hotel-types/{hotelType}/hotels', [
-            HotelTypeHotelsController::class,
-            'index',
-        ])->name('hotel-types.hotels.index');
-        Route::post('/hotel-types/{hotelType}/hotels', [
-            HotelTypeHotelsController::class,
-            'store',
-        ])->name('hotel-types.hotels.store');
+//         Route::apiResource('hotel-services', HotelServiceController::class);
 
-        Route::apiResource('insurances', InsuranceController::class);
+//         Route::apiResource('hotel-types', HotelTypeController::class);
 
-        Route::apiResource(
-            'insurance-agencies',
-            InsuranceAgencyController::class
-        );
+//         // HotelType Hotels
+//         Route::get('/hotel-types/{hotelType}/hotels', [
+//             HotelTypeHotelsController::class,
+//             'index',
+//         ])->name('hotel-types.hotels.index');
+//         Route::post('/hotel-types/{hotelType}/hotels', [
+//             HotelTypeHotelsController::class,
+//             'store',
+//         ])->name('hotel-types.hotels.store');
 
-        // InsuranceAgency Insurances
-        Route::get('/insurance-agencies/{insuranceAgency}/insurances', [
-            InsuranceAgencyInsurancesController::class,
-            'index',
-        ])->name('insurance-agencies.insurances.index');
-        Route::post('/insurance-agencies/{insuranceAgency}/insurances', [
-            InsuranceAgencyInsurancesController::class,
-            'store',
-        ])->name('insurance-agencies.insurances.store');
+//         Route::apiResource('insurances', InsuranceController::class);
 
-        Route::apiResource('jobs', JobController::class);
+//         Route::apiResource(
+//             'insurance-agencies',
+//             InsuranceAgencyController::class
+//         );
 
-        Route::apiResource('job-categories', JobCategoryController::class);
+//         // InsuranceAgency Insurances
+//         Route::get('/insurance-agencies/{insuranceAgency}/insurances', [
+//             InsuranceAgencyInsurancesController::class,
+//             'index',
+//         ])->name('insurance-agencies.insurances.index');
+//         Route::post('/insurance-agencies/{insuranceAgency}/insurances', [
+//             InsuranceAgencyInsurancesController::class,
+//             'store',
+//         ])->name('insurance-agencies.insurances.store');
 
-        // JobCategory Jobs
-        Route::get('/job-categories/{jobCategory}/jobs', [
-            JobCategoryJobsController::class,
-            'index',
-        ])->name('job-categories.jobs.index');
-        Route::post('/job-categories/{jobCategory}/jobs', [
-            JobCategoryJobsController::class,
-            'store',
-        ])->name('job-categories.jobs.store');
+//         Route::apiResource('jobs', JobController::class);
 
-        Route::apiResource(
-            'job-sub-categories',
-            JobSubCategoryController::class
-        );
+//         Route::apiResource('job-categories', JobCategoryController::class);
 
-        // JobSubCategory Jobs
-        Route::get('/job-sub-categories/{jobSubCategory}/jobs', [
-            JobSubCategoryJobsController::class,
-            'index',
-        ])->name('job-sub-categories.jobs.index');
-        Route::post('/job-sub-categories/{jobSubCategory}/jobs', [
-            JobSubCategoryJobsController::class,
-            'store',
-        ])->name('job-sub-categories.jobs.store');
+//         // JobCategory Jobs
+//         Route::get('/job-categories/{jobCategory}/jobs', [
+//             JobCategoryJobsController::class,
+//             'index',
+//         ])->name('job-categories.jobs.index');
+//         Route::post('/job-categories/{jobCategory}/jobs', [
+//             JobCategoryJobsController::class,
+//             'store',
+//         ])->name('job-categories.jobs.store');
 
-        Route::apiResource('settings', SettingController::class);
+//         Route::apiResource(
+//             'job-sub-categories',
+//             JobSubCategoryController::class
+//         );
 
-        Route::apiResource('setting-groups', SettingGroupController::class);
+//         // JobSubCategory Jobs
+//         Route::get('/job-sub-categories/{jobSubCategory}/jobs', [
+//             JobSubCategoryJobsController::class,
+//             'index',
+//         ])->name('job-sub-categories.jobs.index');
+//         Route::post('/job-sub-categories/{jobSubCategory}/jobs', [
+//             JobSubCategoryJobsController::class,
+//             'store',
+//         ])->name('job-sub-categories.jobs.store');
 
-        // SettingGroup Settings
-        Route::get('/setting-groups/{settingGroup}/settings', [
-            SettingGroupSettingsController::class,
-            'index',
-        ])->name('setting-groups.settings.index');
-        Route::post('/setting-groups/{settingGroup}/settings', [
-            SettingGroupSettingsController::class,
-            'store',
-        ])->name('setting-groups.settings.store');
+//         Route::apiResource('settings', SettingController::class);
 
-        Route::apiResource('visas', VisaController::class);
-    });
+//         Route::apiResource('setting-groups', SettingGroupController::class);
+
+//         // SettingGroup Settings
+//         Route::get('/setting-groups/{settingGroup}/settings', [
+//             SettingGroupSettingsController::class,
+//             'index',
+//         ])->name('setting-groups.settings.index');
+//         Route::post('/setting-groups/{settingGroup}/settings', [
+//             SettingGroupSettingsController::class,
+//             'store',
+//         ])->name('setting-groups.settings.store');
+
+//         Route::apiResource('visas', VisaController::class);
+//     });

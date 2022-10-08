@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-return new class extends Migration {
+return new class extends Migration
+{
     /**
      * Run the migrations.
      *
@@ -18,7 +19,9 @@ return new class extends Migration {
             $table->string('image')->nullable();
             $table->text('description');
             $table->string('tags');
+            $table->tinyInteger('status')->default(0);
             $table->unsignedBigInteger('blog_category_id');
+
 
             $table->timestamps();
         });

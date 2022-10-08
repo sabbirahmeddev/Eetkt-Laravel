@@ -21,7 +21,6 @@ class DatabaseSeeder extends Seeder
                 'password' => \Hash::make('admin'),
             ]);
         $this->call(PermissionsSeeder::class);
-
         $this->call(BlogSeeder::class);
         $this->call(BlogCategorySeeder::class);
         $this->call(BusSeeder::class);
@@ -31,7 +30,7 @@ class DatabaseSeeder extends Seeder
         $this->call(CarDriverSeeder::class);
         $this->call(CitySeeder::class);
         $this->call(CityCategorySeeder::class);
-        $this->call(CityEventsSeeder::class);
+        $this->call(CityEventSeeder::class);
         $this->call(CountrySeeder::class);
         $this->call(DestinationBlogSeeder::class);
         $this->call(EventTypeSeeder::class);

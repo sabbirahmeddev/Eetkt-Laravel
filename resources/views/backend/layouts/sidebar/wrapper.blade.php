@@ -6,12 +6,12 @@ data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
 <!--begin::Logo-->
 <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
     <!--begin::Logo image-->
-    <a href="https://preview.keenthemes.com/metronic8/demo1/../demo1/index.html">
+    <a href="{{ route('home') }}">
         <img alt="Logo"
-            src="https://preview.keenthemes.com/metronic8/demo1/assets/media/logos/default-dark.svg"
-            class="h-25px app-sidebar-logo-default" />
+            src="{{ asset('logo.png') }}"
+            class="w-100 app-sidebar-logo-default p-5" />
         <img alt="Logo"
-            src="https://preview.keenthemes.com/metronic8/demo1/assets/media/logos/default-small.svg"
+            src="{{ asset('logo.png') }}"
             class="h-20px app-sidebar-logo-minimize" />
     </a>
     <!--end::Logo image-->

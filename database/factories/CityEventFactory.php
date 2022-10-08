@@ -2,18 +2,18 @@
 
 namespace Database\Factories;
 
-use App\Models\CityEvents;
+use App\Models\CityEvent;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class CityEventsFactory extends Factory
+class CityEventFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = CityEvents::class;
+    protected $model = CityEvent::class;
 
     /**
      * Define the model's default state.

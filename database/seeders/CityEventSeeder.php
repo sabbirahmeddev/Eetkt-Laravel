@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\CityEvents;
+use App\Models\CityEvent;
 use Illuminate\Database\Seeder;
 
-class CityEventsSeeder extends Seeder
+class CityEventSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,7 +14,7 @@ class CityEventsSeeder extends Seeder
      */
     public function run()
     {
-        CityEvents::factory()
+        CityEvent::factory()
             ->count(5)
             ->create();
     }

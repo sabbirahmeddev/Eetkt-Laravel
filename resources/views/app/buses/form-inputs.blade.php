@@ -13,9 +13,12 @@
     </x-inputs.group>
 
     <x-inputs.group class="col-sm-12">
-        <x-inputs.textarea name="model" label="Model" maxlength="255" required
-            >{{ old('model', ($editing ? $bus->model : ''))
-            }}</x-inputs.textarea
-        >
+        <x-inputs.text
+            name="number"
+            label="Number"
+            :value="old('number', ($editing ? $bus->number : ''))"
+            placeholder="Number"
+            required
+        ></x-inputs.text>
     </x-inputs.group>
 </div>

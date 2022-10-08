@@ -29,7 +29,7 @@
             <div class="col-md-6 text-right">
                 @can('create', App\Models\CityEvents::class)
                 <a
-                    href="{{ route('all-city-events.create') }}"
+                    href="{{ route('city-events.create') }}"
                     class="btn btn-primary"
                 >
                     <i class="icon ion-md-add"></i> @lang('crud.common.create')
@@ -48,7 +48,7 @@
             </div>
 
             <div class="table-responsive">
-                <table class="table table-borderless table-hover">
+                <table class="table table-borderless table-hover table-striped">
                     <thead>
                         <tr>
                             <th class="text-left">
@@ -72,21 +72,21 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @forelse($allCityEvents as $cityEvents)
+                        @forelse($cityEvents as $cityEvent)
                         <tr>
-                            <td>{{ $cityEvents->name ?? '-' }}</td>
+                            <td>{{ $cityEvent->name ?? '-' }}</td>
                             <td>
                                 <x-partials.thumbnail
-                                    src="{{ $cityEvents->image ? \Storage::url($cityEvents->image) : '' }}"
+                                    src="{{ $cityEvent->image ? \Storage::url($cityEvent->image) : '' }}"
                                 />
                             </td>
-                            <td>{{ $cityEvents->description ?? '-' }}</td>
+                            <td>{{ $cityEvent->description ?? '-' }}</td>
                             <td>
-                                {{ optional($cityEvents->eventType)->name ?? '-'
+                                {{ optional($cityEvent->eventType)->name ?? '-'
                                 }}
                             </td>
                             <td>
-                                {{ optional($cityEvents->city)->name ?? '-' }}
+                                {{ optional($cityEvent->city)->name ?? '-' }}
                             </td>
                             <td class="text-center" style="width: 134px;">
                                 <div
@@ -94,9 +94,9 @@
                                     aria-label="Row Actions"
                                     class="btn-group"
                                 >
-                                    @can('update', $cityEvents)
+                                    @can('update', $cityEvent)
                                     <a
-                                        href="{{ route('all-city-events.edit', $cityEvents) }}"
+                                        href="{{ route('city-events.edit', $cityEvent) }}"
                                     >
                                         <button
                                             type="button"
@@ -105,9 +105,9 @@
                                             <i class="icon ion-md-create"></i>
                                         </button>
                                     </a>
-                                    @endcan @can('view', $cityEvents)
+                                    @endcan @can('view', $cityEvent)
                                     <a
-                                        href="{{ route('all-city-events.show', $cityEvents) }}"
+                                        href="{{ route('city-events.show', $cityEvent) }}"
                                     >
                                         <button
                                             type="button"
@@ -116,9 +116,9 @@
                                             <i class="icon ion-md-eye"></i>
                                         </button>
                                     </a>
-                                    @endcan @can('delete', $cityEvents)
+                                    @endcan @can('delete', $cityEvent)
                                     <form
-                                        action="{{ route('all-city-events.destroy', $cityEvents) }}"
+                                        action="{{ route('city-events.destroy', $cityEvent) }}"
                                         method="POST"
                                         onsubmit="return confirm('{{ __('crud.common.are_you_sure') }}')"
                                     >
@@ -145,7 +145,7 @@
                     <tfoot>
                         <tr>
                             <td colspan="6">
-                                {!! $allCityEvents->render() !!}
+                                {!! $cityEvents->render() !!}
                             </td>
                         </tr>
                     </tfoot>

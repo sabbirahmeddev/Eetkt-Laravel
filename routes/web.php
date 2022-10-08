@@ -23,7 +23,7 @@ use App\Http\Controllers\EventTypeController;
 use App\Http\Controllers\HotelTypeController;
 use App\Http\Controllers\InsuranceController;
 use App\Http\Controllers\SocialLinkController;
-use App\Http\Controllers\CityEventsController;
+use App\Http\Controllers\CityEventController;
 use App\Http\Controllers\PermissionController;
 use App\Http\Controllers\JobCategoryController;
 use App\Http\Controllers\BlogCategoryController;
@@ -66,6 +66,8 @@ Route::prefix('admin/')
 Route::prefix('admin/')
     ->middleware('auth')
     ->group(function () {
+
+
         Route::resource('roles', RoleController::class);
         Route::resource('permissions', PermissionController::class);
 
@@ -87,12 +89,13 @@ Route::prefix('admin/')
         Route::resource('city-categories', CityCategoryController::class);
 
 
-        Route::resource('all-city-events', CityEventsController::class);
-
-
+        Route::resource('city-events', CityEventController::class);
         Route::resource('countries', CountryController::class);
+
         Route::resource('destination-blogs', DestinationBlogController::class);
         Route::resource('event-types', EventTypeController::class);
+
+
         Route::resource('holidays', HolidayController::class);
 
         Route::resource('hotels', HotelController::class);
@@ -113,4 +116,7 @@ Route::prefix('admin/')
         Route::resource('settings', SettingController::class);
         Route::resource('setting-groups', SettingGroupController::class);
         Route::resource('visas', VisaController::class);
+
+        Route::view('---settings','backend.settings');
+
     });

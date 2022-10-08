@@ -17,6 +17,7 @@ class Blog extends Model
         'description',
         'tags',
         'blog_category_id',
+        'status',
     ];
 
     protected $searchableFields = ['*'];

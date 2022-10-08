@@ -24,7 +24,7 @@ class BusFactory extends Factory
     {
         return [
             'name' => $this->faker->name,
-            'model' => $this->faker->text,
+            'number' => $this->faker->text,
         ];
     }
 }

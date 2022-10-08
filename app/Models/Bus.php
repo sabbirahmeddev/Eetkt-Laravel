@@ -11,7 +11,7 @@ class Bus extends Model
     use HasFactory;
     use Searchable;
 
-    protected $fillable = ['name', 'model'];
+    protected $fillable = ['name', 'number'];
 
     protected $searchableFields = ['*'];
 

@@ -84,4 +84,12 @@
             @endforeach
         </x-inputs.select>
     </x-inputs.group>
+
+    <x-inputs.group class="col-sm-12">
+        <x-inputs.checkbox
+            name="status"
+            label="Status"
+            :checked="old('status', ($editing ? $blog->status : 0))"
+        ></x-inputs.checkbox>
+    </x-inputs.group>
 </div>
