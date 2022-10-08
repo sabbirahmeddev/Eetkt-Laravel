@@ -1,7 +1,9 @@
 @extends('backend.layouts.app')
 
 @section('content')
-<div class="d-flex flex-column flex-column-fluid x"><div id="kt_app_content" class="app-content flex-column-fluid"><div id="kt_app_content_container" class="app-container container-fluid">
+<div class="d-flex flex-column flex-column-fluid x">
+    <div id="kt_app_content" class="app-content flex-column-fluid">
+        <div id="kt_app_content_container" class="app-container container-fluid">
 <div class="card flex-row-fluid mb-2 mt-4">
 	<div class="card-body fs-6 py-15 px-10 py-lg-15 px-lg-15 text-gray-700">
             <h4 class="card-title">
@@ -34,7 +36,9 @@
                 </a>
                 @endcan
             </div>
-        </div>
+ </div>
     </div>
-</div></div></div>
+</div>
+</div>
+</div>
 @endsection

@@ -1,7 +1,9 @@
 @extends('backend.layouts.app')
 
 @section('content')
-<div class="d-flex flex-column flex-column-fluid x"><div id="kt_app_content" class="app-content flex-column-fluid"><div id="kt_app_content_container" class="app-container container-fluid">
+<div class="d-flex flex-column flex-column-fluid x">
+    <div id="kt_app_content" class="app-content flex-column-fluid">
+        <div id="kt_app_content_container" class="app-container container-fluid">
     <div class="searchbar mt-0 mb-4 mt-4">
         <div class="row">
             <div class="col-md-6">
@@ -34,8 +36,8 @@
         </div>
     </div>
 
-<div class="card flex-row-fluid mb-2">
-	<div class="card-body fs-6 py-15 px-10 py-lg-15 px-lg-15 text-gray-700">
+    <div class="card">
+        <div class="card-body">
             <div style="display: flex; justify-content: space-between;">
                 <h4 class="card-title">@lang('crud.blogs.index_title')</h4>
             </div>
@@ -51,10 +53,13 @@
                                 @lang('crud.blogs.inputs.image')
                             </th>
                             <th class="text-left">
-                                @lang('crud.blogs.inputs.blog_category_id')
+                                @lang('crud.blogs.inputs.description')
                             </th>
                             <th class="text-left">
-                                @lang('crud.blogs.inputs.status')
+                                @lang('crud.blogs.inputs.tags')
+                            </th>
+                            <th class="text-left">
+                                @lang('crud.blogs.inputs.blog_category_id')
                             </th>
                             <th class="text-center">
                                 @lang('crud.common.actions')
@@ -70,11 +75,11 @@
                                     src="{{ $blog->image ? \Storage::url($blog->image) : '' }}"
                                 />
                             </td>
-
+                            <td>{{ $blog->description ?? '-' }}</td>
+                            <td>{{ $blog->tags ?? '-' }}</td>
                             <td>
                                 {{ optional($blog->blogCategory)->name ?? '-' }}
                             </td>
-                            <td>{{ $blog->status ? 'Published' : 'In Draft' }}</td>
                             <td class="text-center" style="width: 134px;">
                                 <div
                                     role="group"
@@ -119,7 +124,7 @@
                         </tr>
                         @empty
                         <tr>
-                            <td colspan="8">
+                            <td colspan="6">
                                 @lang('crud.common.no_items_found')
                             </td>
                         </tr>
@@ -127,12 +132,14 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="8">{!! $blogs->render() !!}</td>
+                            <td colspan="6">{!! $blogs->render() !!}</td>
                         </tr>
                     </tfoot>
                 </table>
             </div>
-        </div>
+ </div>
     </div>
-</div></div></div>
+</div>
+</div>
+</div>
 @endsection

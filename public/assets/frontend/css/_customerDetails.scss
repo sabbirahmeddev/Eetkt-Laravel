@@ -1,0 +1,57 @@
+.cusBg {
+    padding: 120px 0px;
+
+    h1 {
+        font-size: 80px;
+        font-weight: 600;
+    }
+}
+
+.mainInput {
+    input[type="file"] {
+        display: none;
+    }
+
+    label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #ABABAB;
+        border-radius: 5px;
+        color: #A8A8A8;
+        padding-left: 15px;
+
+        i {
+            font-size: 35px;
+            background: #A8A8A8;
+            padding: 15px;
+            color: white;
+            padding: 0px 22px;
+        }
+    }
+}
+
+.second {
+    label {
+        border: none;
+        padding-left: 0px;
+    }
+}
+
+.personal {
+    h4 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 38px;
+        color: #000000;
+    }
+}
+.pay__section{
+    background: none;
+}
+.payLogo{
+    width: 25%;
+    margin: 0 auto;
+}

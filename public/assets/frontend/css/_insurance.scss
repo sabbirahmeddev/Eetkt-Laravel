@@ -1,0 +1,206 @@
+.insurance__section {
+    .insurance__title {
+        h2 {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 140%;
+            color: #000000;
+        }
+    }
+
+    .insurance__cardBox {
+        padding: 20px;
+        border: 1.5px solid #707070;
+        border-radius: 8px;
+        box-shadow: 4px 4px 7px -5px black;
+        width: 90%;
+
+        h6 {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 140%;
+            color: #525FBB;
+            margin-bottom: 20px;
+        }
+
+        .insurance__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .insuranceLeft__content {
+
+                .insurance__up {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .insurance__logoName {
+                        h4 {
+                            font-weight: 700;
+                            font-size: 27px;
+                            line-height: 140%;
+                            color: #000000;
+                        }
+
+                        .insurance__logo {
+                            margin-bottom: 15px;
+                            width: 40%;
+                            height: 100px;
+                            border: solid 1px #00000030;
+                            padding: 10px;
+                            border-radius: 6px;
+                            box-shadow: 0 4px 11px -10px #000000b3;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+
+                    }
+
+                    .insurance__day {
+                        h2 {
+                            font-weight: 700;
+                            font-size: 35px;
+                            line-height: 140%;
+                            color: #525FBB;
+                        }
+                    }
+                }
+
+                .insurance__down {
+                    display: flex;
+                    align-items: center;
+
+                    .insurance__rate {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        border: solid 1px #00000030;
+                        padding: 15px 25px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 11px -10px #000000b3;
+
+                        h6 {
+                            font-weight: 700;
+                            font-size: 36px;
+                            line-height: 140%;
+                            color: #000000;
+                            margin: 0;
+                        }
+
+                        .rating {
+                            p {
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 140%;
+                                color: #000000;
+
+                                span {
+                                    color: #3C64BD;
+                                }
+                            }
+
+                            .star {
+                                i {
+                                    color: gold;
+                                }
+                            }
+                        }
+                    }
+
+                    .insurance {
+                        padding: 0px 35px;
+                        border-right: solid 1px #0000008f;
+
+                        p {
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 140%;
+                            color: #000000;
+                            margin-bottom: 20px;
+                        }
+
+                        span {
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 140%;
+                            color: #969696;
+                        }
+                    }
+                }
+            }
+
+            .insuranceRight__content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-basis: 25%;
+
+                h4 {
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 140%;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #969696;
+                }
+
+                .insurance__btn {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 12px;
+                    width: 100%;
+
+                    a {
+                        background: #35B782;
+                        border-radius: 8px;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 140%;
+                        color: #FFFFFF;
+                        padding: 15px 25px;
+                        display: flex;
+                        width: 100%;
+                        justify-content: center;
+                        transition: 0.3s;
+
+                        &:hover {
+                            background: #35b782e0;
+                        }
+
+                        i {
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .insuranceDown__content {
+            h6 {
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 140%;
+                color: #6E86C2;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                cursor: pointer;
+
+                i{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

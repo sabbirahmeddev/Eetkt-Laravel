@@ -24,10 +24,8 @@ class BlogFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence(10),
-            'content' => $this->faker->text,
+            'description' => $this->faker->sentence(15),
             'tags' => $this->faker->text(255),
-            'short_description' => $this->faker->text,
-            'status' => $this->faker->boolean,
             'blog_category_id' => \App\Models\BlogCategory::factory(),
         ];
     }

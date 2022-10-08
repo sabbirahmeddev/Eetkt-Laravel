@@ -14,18 +14,12 @@ class Blog extends Model
     protected $fillable = [
         'title',
         'image',
-        'content',
+        'description',
         'tags',
-        'short_description',
         'blog_category_id',
-        'status',
     ];
 
     protected $searchableFields = ['*'];
-
-    protected $casts = [
-        'status' => 'boolean',
-    ];
 
     public function blogCategory()
     {

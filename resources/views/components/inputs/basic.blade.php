@@ -12,8 +12,7 @@
     @include('components.inputs.partials.label')
 @endif
 
-<div class="mb-4">
-    <input
+<input
     type="{{ $type }}"
     id="{{ $name }}"
     name="{{ $name }}"
@@ -25,9 +24,6 @@
     {{ $step ? "step={$step}" : '' }}
     autocomplete="off"
 >
-</div>
-
-
 
 @error($name)
     @include('components.inputs.partials.error')

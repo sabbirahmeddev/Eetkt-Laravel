@@ -1,0 +1,61 @@
+// ============== register css ================
+input[placeholder="Phone Number"] {
+    font-size: 35px;
+    color: #55525F;
+    width: 100%;
+    background: transparent;
+}
+input[placeholder="Username"] {
+    font-size: 35px;
+    color: #55525F;
+    width: 100%;
+    background: transparent;
+}
+input[placeholder="Email"] {
+    font-size: 35px;
+    color: #55525F;
+    width: 100%;
+    background: transparent;
+}
+input[placeholder="Confirm Password"] {
+    font-size: 35px;
+    color: #55525F;
+    width: 100%;
+    background: transparent;
+}
+
+.otp {
+    padding-bottom: 30px;
+    border-bottom: solid 4px black;
+
+    h4 {
+        text-align: left;
+        font-weight: 400;
+        font-size: 35px;
+        color: #55525F;
+        margin-bottom: 30px;
+    }
+}
+
+.otpNum {
+    display: flex;
+    gap: 15px;
+
+    input {
+        border-bottom: none !important;
+        border: solid 1px black !important;
+        padding: 10px !important;
+        height: 115px;
+        font-size: 70px;
+        background: #EFEFEF;
+        width: 100%;
+    }
+
+    input:focus-visible {
+        outline: none;
+        border: solid 1px black !important;
+    }
+}
+.confitmText{
+    font-size: 85px !important;
+}

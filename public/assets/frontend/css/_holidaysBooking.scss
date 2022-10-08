@@ -1,0 +1,151 @@
+// ========== holidays booking ==========
+.selection__card {
+    padding: 15px;
+    border: 1px solid #7D7D7D;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+
+    .selecCard__img {
+        width: 100%;
+        height: 185px;
+        margin-bottom: 10px;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .wishList__box {
+            position: absolute;
+            top: -57px;
+            left: 83%;
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            transform: rotate(-49deg);
+            display: flex;
+            align-items: center;
+            padding: 2px;
+
+            i {
+                font-size: 30px;
+                cursor: pointer;
+                transform: rotate(45deg);
+            }
+        }
+    }
+
+    .selecCard__details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .selec__textLeft {
+            h6 {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 140%;
+                color: #000000;
+                margin-bottom: 5px;
+            }
+
+            span {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                color: #5E5E5E;
+            }
+        }
+
+        .selec__priceRight {
+            h5 {
+                font-weight: 700;
+                font-size: 27px;
+                line-height: 140%;
+                color: #000000;
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 140%;
+                color: #7D7B7B;
+            }
+        }
+    }
+
+    .selecCard__rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .star {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+
+            i {
+                color: gold;
+                font-size: 22px;
+            }
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .rate__text {
+                p {
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #898989;
+                    text-align: center;
+
+                    span {
+                        color: #31A5E6;
+                        display: block;
+                    }
+                }
+            }
+
+            .rate__num {
+                span {
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 140%;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    .selec__btn {
+        a {
+            background: #31A5E7;
+            border-radius: 21px;
+            padding: 8px 35px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            color: #FFFFFF;
+            text-align: center;
+
+
+            
+            border: none;
+            width: 100%;
+            transition: 0.3s;
+            &:hover{
+                background: #31a5e7e3;
+            }
+        }
+    }
+
+}

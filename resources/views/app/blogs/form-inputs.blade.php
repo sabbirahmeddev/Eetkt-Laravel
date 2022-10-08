@@ -55,11 +55,11 @@
 
     <x-inputs.group class="col-sm-12">
         <x-inputs.textarea
-            name="content"
-            label="Content"
+            name="description"
+            label="Description"
             maxlength="255"
             required
-            >{{ old('content', ($editing ? $blog->content : ''))
+            >{{ old('description', ($editing ? $blog->description : ''))
             }}</x-inputs.textarea
         >
     </x-inputs.group>
@@ -76,17 +76,6 @@
     </x-inputs.group>
 
     <x-inputs.group class="col-sm-12">
-        <x-inputs.textarea
-            name="short_description"
-            label="Short Description"
-            maxlength="255"
-            required
-            >{{ old('short_description', ($editing ? $blog->short_description :
-            '')) }}</x-inputs.textarea
-        >
-    </x-inputs.group>
-
-    <x-inputs.group class="col-sm-12">
         <x-inputs.select name="blog_category_id" label="Blog Category" required>
             @php $selected = old('blog_category_id', ($editing ? $blog->blog_category_id : '')) @endphp
             <option disabled {{ empty($selected) ? 'selected' : '' }}>Please select the Blog Category</option>
@@ -94,13 +83,5 @@
             <option value="{{ $value }}" {{ $selected == $value ? 'selected' : '' }} >{{ $label }}</option>
             @endforeach
         </x-inputs.select>
-    </x-inputs.group>
-
-    <x-inputs.group class="col-sm-12">
-        <x-inputs.checkbox
-            name="status"
-            label="Published"
-            :checked="old('status', ($editing ? $blog->status : 0))"
-        ></x-inputs.checkbox>
     </x-inputs.group>
 </div>

@@ -26,11 +26,9 @@ class BlogStoreRequest extends FormRequest
         return [
             'title' => ['required', 'max:255', 'string'],
             'image' => ['nullable', 'image', 'max:1024'],
-            'content' => ['required', 'max:255', 'string'],
+            'description' => ['required', 'max:255', 'string'],
             'tags' => ['required', 'max:255', 'string'],
-            'short_description' => ['required', 'max:255', 'string'],
             'blog_category_id' => ['required', 'exists:blog_categories,id'],
-            'status' => ['required', 'boolean'],
         ];
     }
 }

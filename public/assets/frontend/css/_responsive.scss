@@ -1,0 +1,1675 @@
+@media all and (max-width: 1500px) {
+    .heroBnnr__section .header__tab {
+        width: 75%;
+        bottom: 85px;
+    }
+}
+
+@media all and (max-width: 1400px) {
+    .selection__card .selecCard__rating .star {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .selection__card .selecCard__img .wishList__box {
+        left: 79%;
+    }
+    .insDetails__text h3 {
+        font-size: 20px;
+    }
+    .insuranceDetails__title h2 {
+        font-size: 30px;
+    }
+    .mainInput h6 {
+        font-size: 25px;
+    }
+    .personal h4 {
+        font-size: 25px;
+    }
+    .mainInput form {
+        width: 100%;
+    }
+    .mainInput .check2 {
+        padding: 10px 40px;
+    }
+    .mainInput .check {
+        padding: 10px 40px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content .insurance__btn a {
+        font-size: 17px;
+        padding: 12px 25px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content {
+        flex-basis: 22%;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance p {
+        margin-bottom: 10px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance {
+        padding: 0px 25px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance__rate .rating p {
+        font-size: 12px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance__rate {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance__rate h6 {
+        font-size: 30px;
+    }
+    .insurance__section .insurance__cardBox h6 {
+        font-size: 14px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up .insurance__day h2 {
+        font-size: 30px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up .insurance__logoName h4 {
+        font-size: 25px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up {
+        align-items: self-start;
+        flex-direction: column;
+    }
+    .busStandInfo__section .susgest__trip .rentel__btn .susg {
+        font-size: 25px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__titleStart .rt__title .star i {
+        font-size: 20px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__titleStart .rt__title .star {
+        gap: 10px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__titleStart .rt__title h3 {
+        font-size: 25px;
+    }
+
+    .member__img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .busStandInfo__section .member__profile .member__content p {
+        font-size: 14px;
+    }
+
+    .busStandInfo__section .member__profile .member__content h6 {
+        font-size: 20px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration {
+        margin-left: 0px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details {
+        gap: 15px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details {
+        gap: 15px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btn {
+        font-size: 20px;
+    }
+
+    .flightBooking__section .flightBooking__header .fly__text p {
+        padding: 14px 10px;
+    }
+
+    .flightBooking__section .flightBooking__header .flyBook input {
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btnGrp__left button {
+        padding: 8px 30px;
+        font-size: 20px;
+    }
+
+    .confitmText {
+        font-size: 65px !important;
+    }
+
+    .footer__section .footer__service .f__service p {
+        font-size: 15px;
+    }
+
+    .footer__section .footer__service .f__service span {
+        font-size: 13px;
+    }
+
+    .footer__section .footer__service {
+        flex-wrap: wrap;
+    }
+
+    .specialOffer__section .specialOffer__box h3 {
+        font-size: 25px;
+    }
+
+    .specialOffer__section .specialOffer__box p {
+        font-size: 16px;
+    }
+
+    .specialOffer__section .specialOffer__box2 .spOffer__icon {
+        margin-bottom: 25px;
+    }
+
+    .specialOffer__section .specialOffer__box2 h2 {
+        font-size: 30px;
+    }
+
+    .tab__button .tabclick {
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 10px 30px;
+    }
+
+    .tab__button .tabclick .tabImg {
+        width: 45px;
+    }
+
+    .tab__button {
+        position: absolute;
+        top: 90%;
+        right: 20px;
+    }
+
+    .header__section .header_topLeft_content ul li {
+        padding: 10px;
+        font-size: 12px;
+
+    }
+
+    .header__section .header_topRight_content ul li {
+        padding: 8px 10px;
+        font-size: 12px;
+
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .jobDetails__info .personal h4 {
+        font-size: 25px;
+    }
+    .jobDetails__content .jobDetails__btn button {
+        font-size: 16px;
+        padding: 8px 30px;
+    }
+    .jobDetails__content p {
+        font-size: 16px;
+    }
+    .jobDetails__content h4 {
+        font-size: 25px;
+    }
+    .jobSearch__option select {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .jobContent__box p {
+        font-size: 17px;
+    }
+    .jobContent__box .jobTitle h4 {
+        font-size: 25px;
+    }
+    .eventSearch .event__img {
+        width: 22%;
+    }
+    .des__title h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .support ul li img {
+        width: 8%;
+    }
+    .conPara {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .contactUs__section .contact__from form input {
+        padding: 10px;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .contactUs__section .contact__from form label {
+        font-size: 17px;
+    }
+    .conText h6 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .visa__btn a {
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    .visa__content .notice {
+        font-size: 16px;
+    }
+    .visa__content .visa__time span {
+        font-size: 20px;
+    }
+    .visa__content .visa__time span {
+        font-size: 20px;
+    }
+    .visa__content .visa__time p {
+        font-size: 18px;
+    }
+    .visa__content h5 {
+        font-size: 20px;
+    }
+    .visa__package{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+    .visa__tab .visa__list ul {
+        margin-bottom: 30px;
+    }
+    .visa__tab .visa__list ul li {
+        font-size: 16px;
+    }
+    .busStandInfo__section .be__discription h3 {
+        font-size: 28px;
+        line-height: 120%;
+    }
+    .visa__card{
+        display: block !important;
+        margin: 0 !important;
+        width: 48%;
+    }
+    .busStandInfo__section .infoPrice__box .nav {
+        padding: 20px 50px;
+    }
+    .busStandInfo__section .infoPrice__box h1 {
+        padding: 25px 40px;
+        font-size: 45px;
+    }
+    .selection__card .selecCard__rating {
+        flex-direction: row;
+    }
+    .insDetails__right .wt__box .disPoint form p {
+        font-size: 16px;
+    }
+    .wt__box {
+        padding: 25px;
+    }
+    .insDetails__right .wt__box ul li {
+        font-size: 15px;
+    }
+    .insDetails__right .wt__box h6 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .mainInput input::placeholder{
+        font-size: 16px !important;
+    }
+    .mainInput__img img{
+        width: 80%;
+    }
+    .mainInput input {
+        padding: 10px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance {
+        padding: 0px 20px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance__rate h6 {
+        font-size: 25px;
+    }
+    .insurance__section .insurance__cardBox {
+        width: 100%;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content p {
+        text-align: center;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content .insurance__btn a i {
+        margin-left: 5px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content h4 {
+        font-size: 22px;
+    }
+    .footer__logo {
+        width: 16%;
+    }
+
+    .busStandInfo__section .member__profile {
+        display: none;
+    }
+
+    .wt__box {
+        width: 100%;
+    }
+
+    .sideCard {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    // .sidePnal{
+    //     position: fixed;
+    //     top: 0;
+    //     left: 0;
+    //     box-shadow: 4px 4px 7px -5px black;
+    //     border: 1px solid #7C7C7C;
+    //     background: white;
+    //     z-index: 99999;
+    //     height: 100vh;
+    //     overflow-y: auto;
+    //     z-index: 1;
+    // }
+    .sidePnal {
+        display: none;
+    }
+
+    .flightTransition__section .flight__left__filter {
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .flightTransition__section .flight__left__filter h4 i {
+        display: block;
+        font-size: 34px;
+        cursor: pointer;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btn {
+        font-size: 18px;
+    }
+
+    .flightBooking__section .flightBooking__header .fly__text p {
+        font-size: 16px;
+    }
+
+    .flightBooking__section .flightBooking__header .fly__date input {
+        font-size: 16px;
+    }
+
+    .flightBooking__section .flightBooking__header .flyBook input {
+        font-size: 16px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__text__right {
+        gap: 15px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__text__right p {
+        font-size: 16px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btnGrp__left button {
+        padding: 8px 25px;
+        font-size: 15px;
+    }
+
+    .login__section .login__box {
+        padding: 100px;
+    }
+
+    .confitmText {
+        font-size: 50px !important;
+    }
+
+    .login__logo {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .login__section .login__box h1 {
+        font-size: 120px;
+    }
+
+    .hppyClient__section .client__box .client__info {
+        gap: 25px;
+    }
+
+    .hppyClient__section .client__box {
+        height: 100%;
+    }
+
+    .hppyClient__section .client__box .client__info .client__nameRate .star {
+        font-size: 21px;
+        gap: 10px;
+    }
+
+    .hppyClient__section .client__box .client__info .client__nameRate h4 {
+        font-size: 22px;
+    }
+
+    .specialOffer__section .specialOffer__box2 .spOffer__icon {
+        margin-bottom: 20px;
+        width: 45%;
+    }
+
+    .specialOffer__section .specialOffer__box2 h2 {
+        font-size: 25px;
+    }
+
+    .specialOffer__section .specialOffer__box2 {
+        padding: 25px;
+    }
+
+    .specialOffer__section .specialOffer__box .spcial_left_box {
+        padding: 25px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentel__btn .rt__btn {
+        padding: 8px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__address .rt__location {
+        gap: 4px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__address .rt__location i {
+        font-size: 22px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__address .rt__location span {
+        font-size: 13px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__para p {
+        font-size: 14px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__titleStart .rt__title .star i {
+        font-size: 16px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__titleStart .rt__title .star {
+        gap: 7px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentelCard__content .rentel__titleStart .rt__title h3 {
+        font-size: 22px;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__inputSearch select {
+        border-radius: 0px;
+        padding: 6px 6px 6px 40px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 100%;
+    }
+
+    .menu .sub__menu {
+        width: 100%;
+    }
+
+    .header__section .header_topLeft_content ul li {
+        flex-grow: 1;
+        border-right: none;
+        justify-content: center;
+    }
+
+    .header__section .header_topRight_content ul li {
+        flex-grow: 1;
+        border-right: none;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .transi__logo {
+        margin-top: 20px;
+    }
+    .job__submit button {
+        font-size: 20px;
+        padding: 10px 35px;
+    }
+    .personal p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .mainInput select {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .queary p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .employment button {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    .event__ul ul li {
+        font-size: 20px;
+    }
+    .eventSearch .event__text p {
+        font-size: 17px;
+    }
+    .eventSearch .event__text h5 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .desSearch__content p {
+        font-size: 30px;
+    }
+    .desSearch__content h6 {
+        font-size: 30px;
+    }
+    .career__content p {
+        font-size: 17px;
+    }
+    .career__content h2 {
+        font-size: 28px;
+    }
+    .header__search .search__selector .selector__box img {
+        top: 5px;
+    }
+    .cusBg h1 {
+        font-size: 70px;
+    }
+    .header__search .search__link a {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .header__search .search__selector {
+        padding: 15px;
+        gap: 15px;
+    }
+    .header__search .search__selector .selector__box select {
+        width: 100%;
+        font-size: 14px;
+    }
+    .flightBooking__details .contactInfoFlgt .conInfoFlgt__title h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .visa__tab nav button {
+        border-bottom: solid 1px white !important;
+    }
+    .itinerary__card .iti__content span {
+        font-size: 20px;
+    }
+    .itinerary__card .iti__content p {
+        font-size: 16px;
+    }
+    .itinerary__card .iti__content h4 {
+        font-size: 22px;
+    }
+    .included__features ul li p {
+        font-size: 16px;
+    }
+    .busStandInfo__section .features h3 {
+        font-size: 28px;
+    }
+    .busStandInfo__section .be__highlights ul li {
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+    .busStandInfo__section .be__discription p {
+        font-size: 16px;
+    }
+    .busStandInfo__section .be__discription h3 {
+        font-size: 28px;
+    }
+    .selection__card .selecCard__img .wishList__box {
+        left: 85%;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up {
+        flex-direction: row;
+        align-items: center;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content .insurance__btn {
+        flex-direction: row;
+
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content {
+        width: 100%;
+    }
+    .insurance__section .insurance__cardBox .insurance__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hotelbooking__section .hotel__card .hotel__rateBooking .hotel__btn {
+    width: 100%;
+}
+    .hotelbooking__section .hotel__card .hotel__rateBooking .rate {
+    width: 100%;
+    justify-content: space-between;
+}
+    .hotelbooking__section .hotel__card .hotel__content p {
+    margin-bottom: 10px;
+}
+    .hotelbooking__section .hotel__card .hotel__content h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+    .hotelbooking__section .hotel__card .hotel__content .star {
+    margin-bottom: 5px;
+}
+    .hotelbooking__section .hotel__card .hotel__content .star i {
+    font-size: 26px;
+}
+    .hotelbooking__section .hotel__card .hotel__rateBooking {
+    padding-left: 18px;
+
+}
+    .hotelbooking__section .hotel__card .hotel__img .heart__img {
+    left: 93%;
+}
+    .hotelbooking__section .hotel__card .hotel__content {
+    width: 50%;
+    padding: 0;
+}
+    .hotelbooking__section .hotel__card .hotel__img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+    .hotelbooking__section .hotel__card {
+    flex-wrap: wrap;
+}
+    .tab__button .tabclick {
+    padding: 10px 20px;
+}
+    .sponserSlider__section {
+        padding: 120px 0px 40px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__img {
+        width: 27%;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__text p {
+        font-size: 12px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__text h6 {
+        font-size: 17px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__content .beachRight .be__review .beRating {
+        font-size: 20px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__content .beachRight p {
+        font-size: 15px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__content .beachRight .be__review p {
+        font-size: 15px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__content .beachLeft p {
+        font-size: 22px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__content .beachLeft h3 {
+        font-size: 27px;
+    }
+
+
+    .flightBooking__details .contactInfoFlgt .conInfoFlgt__title {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .flightBooking__details .contactInfoFlgt .pass {
+        flex-wrap: wrap;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration .duration .startEnd span .num {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration .duration p {
+        font-size: 13px;
+        line-height: 9px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration .duration .startEnd span {
+        width: 60px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration .cgp h4 {
+        font-size: 26px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration .mct h4 {
+        font-size: 26px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transi__logo {
+        width: 70px;
+        height: 68px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details h6 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: #808080;
+        text-transform: capitalize;
+        width: 84px;
+        word-wrap: break-word;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .transition__priceBook .transition__priceBtn a {
+        font-size: 18px;
+        // width: 50%;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .transition__priceBook .transition__priceBtn {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info {
+        border-bottom: solid 1px;
+        border-right: none;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info {
+        flex-direction: column;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__text__right p {
+        font-size: 15px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btnGrp__left button {
+        padding: 8px 15px;
+    }
+
+    input[placeholder="Confirm Password"] {
+        font-size: 25px;
+    }
+
+    input[placeholder="Email"] {
+        font-size: 25px;
+    }
+
+    input[placeholder="Username"] {
+        font-size: 25px;
+    }
+
+    .logSocial__icon {
+        width: 15%;
+    }
+
+    .login__section .login__box P {
+        font-size: 40px;
+    }
+
+    .login__section .login__box form input[type="submit"] {
+        font-size: 30px;
+    }
+
+    .login__section .login__box form input[placeholder="Password"] {
+        font-size: 25px;
+    }
+
+    .login__section .login__box form input {
+        border-bottom: solid 3px black;
+    }
+
+    .login__section .login__box form input[placeholder="Email, Username, Phone"] {
+        font-size: 25px;
+    }
+
+    .login__section .login__box h1 {
+        font-size: 100px;
+        line-height: 105%;
+    }
+
+    .login__logo {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .login__section .login__box {
+        padding: 75px;
+        width: 100%;
+    }
+
+    .footer__section .sponser__brand {
+        justify-content: space-evenly;
+    }
+
+    .hppyClient__section .client__box .client__info .client__img {
+        width: 70%;
+    }
+
+    .hppyClient__section .client__box .client__info .client__img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hppyClient__section .client__box .client__info .client__nameRate h4 {
+        text-align: center;
+    }
+
+    .hppyClient__section .client__box .client__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topdestination__section .topDesSlider .swiper-button-prev {
+        display: none;
+    }
+
+    .topdestination__section .topDesSlider .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .rentelListing__section {
+        padding: 120px 0px 40px;
+    }
+
+    .heroBnnr__section .header__tab {
+        bottom: -48px;
+        border: solid 1px #ad88282e;
+        box-shadow: 0 5px 13px -12px #ad8828;
+    }
+
+    .swiper-button-prev {
+        left: 20px;
+    }
+
+    .swiper-button-next {
+        right: 20px;
+    }
+
+    .tabBox .tab-pane .headerTab__bottom .header__infoTab select {
+        width: 100%;
+    }
+
+    .tabBox .tab-pane .headerTab__bottom .header__infoTab .select {
+        flex-grow: 1;
+    }
+
+    .tabBox .tab-pane .headerTab__bottom .header__infoTab {
+        width: 100%;
+    }
+
+    .promoCode {
+        align-self: flex-end;
+    }
+
+    .tabBox .tab-pane .headerTab__bottom {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .tab__button {
+        top: 95%;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__dateMonth {
+        width: 100%;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__inputSearch .fly {
+        width: 100%;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__inputSearch {
+        width: 100%;
+    }
+
+    .tabBox .tab-pane .headerTab__top {
+        flex-direction: column;
+    }
+
+    .tabBox {
+        height: auto;
+    }
+
+    .swiper-button-prev i {
+        font-size: 32px;
+        padding: 0px 8px;
+    }
+
+    .swiper-button-next i {
+        font-size: 32px;
+        padding: 0px 8px;
+    }
+
+    .banner h1 {
+        font-size: 55px;
+    }
+
+    .header__navi .header__search input {
+        width: 100%;
+    }
+
+    .header__navi .navigation li {
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+
+    .header__navi .headerLogo {
+        width: 15%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .jobSearch__box p{
+        font-size: 15px;
+    }
+    .jobContent__box .jobTitle p {
+        font-size: 12px;
+    }
+    .jobContent__box p {
+        font-size: 14px;
+    }
+    .jobContent__box .jobTitle h4 {
+        font-size: 22px;
+    }
+    .support ul li p{
+        font-size: 17px;
+    }
+    .header__search .search__selector .selector__box {
+        width: 100%;
+    }
+    .search__link{
+        width: 100%;
+    }
+    .header__search .search__link a {
+        display: block;
+        width: 100%;
+        line-height: 45px;
+    }
+    .header__search {
+        flex-direction: column;
+        width: 80%;
+    }
+    .header__search .search__selector {
+        gap: 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .visa__card {
+        width: 100%;
+    }
+    .busStandInfo__section .features .fq__accordian .accordion-item .accordion-body p {
+        font-size: 16px;
+    }
+    .busStandInfo__section .features .fq__accordian .accordion-item .accordion-button {
+        font-size: 17px;
+    }
+    .busStandInfo__section .beachEvent__slider .beImg {
+        height: 450px;
+    }
+    .selection__card .selecCard__img .wishList__box {
+        left: 91%;
+    }
+    .insDetails__right .wt__box p input {
+        width: 20px;
+        height: 20px;
+    }
+    .insDetails__right .wt__box .disPoint form {
+        align-items: flex-start;
+    }
+    .insDetails__right .wt__box h6 {
+        text-align: left;
+    }
+    .insDetails__text p {
+        justify-content: flex-start;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance {
+        padding: 0px;
+        border: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance__rate h6 {
+        font-size: 22px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down .insurance__rate {
+        padding: 12px;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__down {
+        flex-wrap: wrap;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up .insurance__day h2 {
+        font-size: 25px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up .insurance__logoName h4 {
+        font-size: 22px;
+        justify-content: center;
+        text-align: center;
+    }
+    .insurance__logoName{
+        width: 100%;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up .insurance__logoName .insurance__logo {
+        width: 100%;
+        height: 150px;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceLeft__content .insurance__up {
+        flex-direction: column;
+    }
+    .hotelbooking__section .hotel__card .hotel__content {
+    padding-right: 18px;
+    padding-left: 0px;
+}
+    .hotelbooking__section .hotel__card .hotel__img .heart__img {
+    left: 90%;
+}
+    .footer__logo {
+        width: 25%;
+    }
+
+    .sideCard {
+        flex-direction: column;
+    }
+
+    .busStandInfo__section .infoPrice__box .tab-content .bookTab__details .infoPrice__btn a {
+        font-size: 20px;
+    }
+
+    .busStandInfo__section .features .fq__accordian .accordion-item .accordion-button {
+        padding: 15px 0px;
+    }
+
+    .busStandInfo__section .features .features__check .ft__check input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .busStandInfo__section .features .features__check .ft__check span {
+        font-size: 16px;
+    }
+
+    .busStandInfo__section .features h3 {
+        font-size: 28px;
+    }
+
+    .busStandInfo__section .be__highlights ul li {
+        font-size: 16px;
+    }
+
+    .busStandInfo__section .be__discription h3 {
+        font-size: 28px;
+    }
+
+    .busStandInfo__section .be__discription p {
+        font-size: 16px;
+    }
+
+    .busStandInfo__section .features .features__check {
+        grid-template-columns: auto auto;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__img {
+        width: 30%;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__text p {
+        font-size: 10px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__text h6 {
+        font-size: 15px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__content .beachRight .be__review {
+        justify-content: space-between;
+    }
+
+    .beachRight {
+        width: 100%;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .arrival {
+        text-align: center;
+        width: 100%;
+    }
+
+    .flightBooking__details .payment .ticket button {
+        font-size: 20px;
+        padding: 8px 25px;
+    }
+
+    .flightBooking__details .payment .card__method .billing .city select {
+        width: 100%;
+    }
+
+    .pay__check {
+        input {
+            width: inherit !important;
+        }
+    }
+
+    .flightBooking__details .payment .card__method .email {
+        flex-direction: column;
+    }
+
+    .flightBooking__details .contactInfoFlgt .conInfoFlgt__title h3 {
+        font-size: 30px;
+    }
+
+    .flightBooking__details .baggage .baggage__list ul li {
+        font-size: 16px;
+    }
+
+    .nan {
+        width: 100%;
+    }
+
+    .flightBooking__details .adult__box .date {
+        flex-wrap: wrap;
+    }
+
+    .flightBooking__details .contactInfoFlgt form input {
+        width: 100%;
+    }
+
+    .code {
+        width: 100%;
+    }
+
+    .flightBooking__details .contactInfoFlgt form .contry__code {
+        flex-wrap: wrap;
+    }
+
+    .footer__section .footer__list ul li a {
+        font-size: 16px;
+    }
+
+    .footer__section .footer__list h5 {
+        font-size: 20px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__refundable p {
+        font-size: 14px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flightTransition__section h4 {
+        font-size: 20px;
+    }
+
+    .header__navi .headerLogo {
+        width: 20%;
+    }
+
+    .flightBooking__section {
+        padding: 175px 0px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btn {
+        padding: 10px 0px;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__text__right {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btnGrp__left button {
+        flex-grow: 1;
+    }
+
+    .flightBooking__section .flightBooking__header .flight__btnGrp__left {
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    input[placeholder="Confirm Password"] {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    input[placeholder="Email"] {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    input[placeholder="Username"] {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .confitmText {
+        font-size: 40px !important;
+    }
+
+    .otpNum input {
+        padding: 5px !important;
+        height: 60px;
+        font-size: 40px;
+    }
+
+    .otp h4 {
+        font-size: 25px;
+    }
+
+    input[placeholder="Phone Number"] {
+        font-size: 25px;
+    }
+
+    .login__section .login__box h1 {
+        font-size: 70px;
+    }
+
+    .login__section .login__box {
+        padding: 50px;
+    }
+
+    .loginBg .loginHeader__title h1 {
+        font-size: 75px;
+    }
+
+    .hppyClient__section .client__box .client__info .client__nameRate h4 {
+        text-align: left;
+    }
+
+    .hppyClient__section .client__box .client__info .client__img {
+        width: 25%;
+    }
+
+    .hppyClient__section .client__box .client__info {
+        flex-direction: row;
+    }
+
+    .rentelListing__section .rentelListing__title h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .tab__button {
+        top: 96%;
+    }
+
+    .tabBox .tab-pane .headerTab__bottom .header__infoTab {
+        flex-wrap: wrap;
+    }
+
+    .banner h1 {
+        font-size: 45px;
+    }
+
+    .header__section .header_topLeft_content ul li {
+        &:last-child {
+            display: none;
+        }
+    }
+
+    .header__section .header_topRight_content ul li {
+        &:first-child {
+            display: none;
+        }
+    }
+}
+
+@media all and (max-width: 567px) {
+    .jobSearch__option .sortSelect {
+        width: 100%;
+    }
+    .sortBy{
+        width: 100%;
+    }
+    .jobSearch__option input {
+        width: 100%;
+    }
+    .jobSearch__option {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .jobContent__box .jobTitle {
+        margin-bottom: 15px;
+    }
+    .jobContent__box {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .eventSearch .event__img {
+        width: 50%;
+    }
+    .busStandInfo__section .beachEvent__slider .beImg {
+        height: 400px;
+    }
+    .career__content p {
+        font-size: 16px;
+    }
+    .career__content h2 {
+        font-size: 24px;
+    }
+    .cusBg h1 {
+        font-size: 60px;
+    }
+    .included__features ul li p i {
+        font-size: 21px;
+    }
+    .busStandInfo__section .be__discription h3 {
+        font-size: 24px;
+    }
+    .busStandInfo__section .features h3 {
+        font-size: 24px;
+    }
+    .included__features ul li p {
+        font-size: 13px;
+    }
+    .selection__card .selecCard__img .wishList__box {
+        left: 89%;
+    }
+    .insDetails__right .wt__box p {
+        font-size: 16px;
+    }
+    .flightTransition__section .centerPagination p {
+    font-size: 18px;
+}
+    .flightTransition__section .centerPagination .pagi i {
+    font-size: 35px;
+}
+    .flightTransition__section .centerPagination .pagi {
+    gap: 5px;
+}
+    .flightTransition__section .centerPagination .pagi ul li a {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+    .hotelbooking__section .hotel__title h2 {
+    font-size: 30px;
+}
+    .hotelbooking__section .hotel__card .hotel__rateBooking p {
+    align-self: center;
+}
+    .hotelbooking__section .hotel__card .hotel__rateBooking .hotel__btn a {
+    flex-basis: 50%;
+}
+    .hotelbooking__section .hotel__card .hotel__rateBooking .hotel__btn {
+    flex-direction: row;
+}
+    .hotelbooking__section .hotel__card .hotel__rateBooking {
+    padding-left: 0px;
+    flex-basis: 100%;
+    gap: 20px;
+}
+    .hotelbooking__section .hotel__card .hotel__content {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+}
+    .bannerBus {
+        padding: 215px 0px;
+    }
+
+    .heroBnnr__section .header__tab {
+        width: 95%;
+    }
+
+    .wt__box {
+        padding: 25px;
+    }
+
+    .flightBooking__details .payment .card__method .billing .city {
+        flex-direction: column;
+    }
+
+    .flightBooking__details .payment .payment__method {
+        flex-wrap: wrap;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration {
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details h6 {
+        font-size: 33px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details {
+        justify-content: center;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transi__logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .flightTransition__section .bookingList__btn .bk__btn {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .header__navi .navigation li a {
+        font-size: 16px;
+    }
+
+    .flightBooking__section {
+        padding: 160px 0px;
+    }
+
+    .login__section .login__box .logSocial {
+        justify-content: space-around;
+    }
+
+    .login__section .login__box form input[type="submit"] {
+        font-size: 25px;
+    }
+
+    .login__section .login__box form {
+        gap: 60px;
+    }
+
+    .login__section .login__box form input[placeholder="Password"] {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .login__section .login__box form input[placeholder="Email, Username, Phone"] {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .login__section .login__box h1 {
+        font-size: 75px;
+    }
+
+    .login__logo {
+        width: 45%;
+    }
+
+    .specialOffer__section .specialOffer__box h3 {
+        transform: translateX(0px);
+    }
+
+    .banner {
+        height: 520px;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__dateMonth input {
+        gap: 5px;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__inputSearch {
+        flex-direction: column;
+    }
+
+    .tabBox .tab-pane .headerTab__bottom .header__infoTab select {
+        font-size: 13px;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__dateMonth input {
+        font-size: 14px;
+    }
+
+    .tabBox .tab-pane .headerTab__top .header__inputSearch select {
+        font-size: 14px;
+    }
+
+    .banner h1 {
+        font-size: 35px;
+    }
+
+    .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .eventSearch .event__img {
+        width: 100%;
+        height: auto;
+    }
+    .eventSearch {
+        flex-direction: column;
+    }
+    .cusBg h1 {
+        font-size: 60px;
+    }
+    .selection__card .selecCard__img .wishList__box {
+        left: 86%;
+    }
+    .insurance__section .insurance__cardBox .insurance__content .insuranceRight__content .insurance__btn {
+        flex-direction: column;
+    }
+    .hotelbooking__section .hotel__card .hotel__rateBooking .hotel__btn a {
+    font-size: 15px;
+    padding: 8px 12px;
+}
+    .hotelbooking__section .hotel__card .hotel__img .heart__img {
+    left: 86%;
+}
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__text p {
+        font-size: 8px;
+    }
+
+    .busStandInfo__section .beachEvent__box .beachEvent__service .beService__box .be__text h6 {
+        font-size: 12px;
+    }
+
+    .busStandInfo__section .susgest__trip h4 {
+        font-size: 30px;
+    }
+
+    .busStandInfo__section .infoPrice__box .tab-content .bookTab__details .priceRange span {
+        font-size: 20px;
+        width: 22px;
+        height: 22px;
+    }
+
+    .busStandInfo__section .infoPrice__box .tab-content .bookTab__details .priceRange p {
+        font-size: 20px;
+    }
+
+    .busStandInfo__section .infoPrice__box .tab-content .bookTab__details span {
+        font-size: 12px;
+    }
+
+    .busStandInfo__section .infoPrice__box .tab-content .bookTab__details p {
+        font-size: 16px;
+    }
+
+    .rentelListing__section .rentelSlider .rentel__card .rentel__btn .rt__btn {
+        padding: 4px;
+    }
+
+    .busStandInfo__section .susgest__trip .rentel__btn .susg {
+        font-size: 17px;
+    }
+
+    .flightBooking__details .payment .ticket {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__details .transition__duration {
+        gap: 15px;
+    }
+
+    .flightTransition__section .bookingList .bookingList__box .bookingTransition__info .transition__info .transition__refundable {
+        gap: 0px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .flightTransition__section .bookingList__btn .bk__btn {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .otpNum {
+        gap: 5px;
+    }
+
+    .otpNum input {
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .login__section .login__box form input[type="submit"] {
+        font-size: 20px;
+        padding: 16px 50px;
+    }
+
+    .footer__section .fsubs form .femail {
+        flex-grow: 0;
+        width: 100%;
+    }
+
+    .footer__section .footerSocial {
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .banner {
+        height: 590px;
+    }
+
+    .tab__button {
+        top: 97%;
+    }
+
+    .header__section .header_topLeft_content ul li {
+        font-size: 10px;
+    }
+
+    .header__section .header_topRight_content ul li {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 350px) {}

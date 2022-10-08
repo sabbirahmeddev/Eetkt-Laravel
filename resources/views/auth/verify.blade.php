@@ -1,7 +1,7 @@
 @extends('backend.layouts.app')
 
 @section('content')
-<div class="d-flex flex-column flex-column-fluid x">
+<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -22,7 +22,9 @@
                     </form>
                 </div>
             </div>
-        </div>
+ </div>
     </div>
+</div>
+</div>
 </div>
 @endsection

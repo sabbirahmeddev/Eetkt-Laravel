@@ -1,0 +1,170 @@
+// ============== hotelbooking section css ===============
+.hotelbooking__section {
+    .hotel__title {
+        margin-bottom: 20px;
+
+        h2 {
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 140%;
+            color: #000000;
+        }
+    }
+
+    .hotel__card {
+        display: flex;
+        padding: 18px;
+        border: solid 1px #8A8A8A;
+        border-radius: 8px;
+        box-shadow: 3px 3px 11px -7px #000000a6;
+
+        .hotel__img {
+            width: 90%;
+            height: 250px;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            .heart__img{
+                position: absolute;
+                top: -48px;
+                left: 88%;
+                background: white;
+                width: 90px;
+                height: 90px;
+                transform: rotate(-48deg);
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                i{
+                    font-size: 28px;
+                    transform: rotate(48deg);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .hotel__content {
+            padding: 0px 30px;
+            border-right: solid 1px #979797;
+
+            h3 {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 140%;
+                color: #000000;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 140%;
+                color: #000000;
+                margin-bottom: 20px;
+            }
+
+            .star {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 12px;
+
+                i {
+                    font-size: 35px;
+                    color: gold;
+                }
+            }
+
+            .location {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                i {
+                    font-size: 24px;
+                    line-height: 140%;
+                    color: #7A7A7A;
+                }
+            }
+        }
+
+        .hotel__rateBooking {
+            padding-left: 30px;
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            p {
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 140%;
+                color: #919191;
+                span{
+                    font-weight: 500;
+                    color: black;
+                    font-size: 25px;
+                }
+            }
+
+
+            .rate {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+
+                &>span {
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 140%;
+                    padding: 4px;
+                    color: #FFFFFF;
+                    background: #4085D6;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #898989;
+
+                    &>span {
+                        color: #4085D6;
+                        font-size: inherit;
+                        font-weight: inherit;
+                    }
+                }
+            }
+
+            .hotel__btn {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                a {
+                    background: #4085D6;
+                    border-radius: 6px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    padding: 10px 15px;
+                    text-align: center;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #4085d6e0;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

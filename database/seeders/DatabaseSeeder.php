@@ -24,11 +24,33 @@ class DatabaseSeeder extends Seeder
 
         $this->call(BlogSeeder::class);
         $this->call(BlogCategorySeeder::class);
+        $this->call(BusSeeder::class);
+        $this->call(BusRouteSeeder::class);
+        $this->call(CarSeeder::class);
+        $this->call(CarBrandSeeder::class);
+        $this->call(CarDriverSeeder::class);
+        $this->call(CitySeeder::class);
+        $this->call(CityCategorySeeder::class);
+        $this->call(CityEventsSeeder::class);
+        $this->call(CountrySeeder::class);
+        $this->call(DestinationBlogSeeder::class);
+        $this->call(EventTypeSeeder::class);
         $this->call(FaqSeeder::class);
+        $this->call(HolidaySeeder::class);
+        $this->call(HotelSeeder::class);
+        $this->call(HotelFacilitySeeder::class);
+        $this->call(HotelServiceSeeder::class);
+        $this->call(HotelTypeSeeder::class);
+        $this->call(InsuranceSeeder::class);
+        $this->call(InsuranceAgencySeeder::class);
+        $this->call(JobSeeder::class);
+        $this->call(JobCategorySeeder::class);
+        $this->call(JobSubCategorySeeder::class);
         $this->call(PageSeeder::class);
         $this->call(SettingSeeder::class);
         $this->call(SettingGroupSeeder::class);
         $this->call(SocialLinkSeeder::class);
         $this->call(UserSeeder::class);
+        $this->call(VisaSeeder::class);
     }
 }

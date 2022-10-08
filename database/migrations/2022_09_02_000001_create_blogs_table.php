@@ -16,11 +16,9 @@ return new class extends Migration {
             $table->bigIncrements('id');
             $table->string('title');
             $table->string('image')->nullable();
-            $table->text('content');
+            $table->text('description');
             $table->string('tags');
-            $table->mediumText('short_description');
             $table->unsignedBigInteger('blog_category_id');
-            $table->boolean('status');
 
             $table->timestamps();
         });
